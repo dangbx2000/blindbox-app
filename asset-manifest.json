@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blindbox-app/static/css/main.d3328a50.css",
+    "main.css": "/blindbox-app/static/css/main.1ebf01ae.css",
     "main.js": "/blindbox-app/static/js/main.f3c60185.js",
     "static/media/lilazoo.png": "/blindbox-app/static/media/lilazoo.98dbe50f2412180920ac.png",
     "index.html": "/blindbox-app/index.html",
-    "main.d3328a50.css.map": "/blindbox-app/static/css/main.d3328a50.css.map",
+    "main.1ebf01ae.css.map": "/blindbox-app/static/css/main.1ebf01ae.css.map",
     "main.f3c60185.js.map": "/blindbox-app/static/js/main.f3c60185.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3328a50.css",
+    "static/css/main.1ebf01ae.css",
     "static/js/main.f3c60185.js"
   ]
 }
