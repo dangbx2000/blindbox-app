@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Box 1",
+      "image": "./img/lilazoo.png",
+      "info": "Secret Info 1",
+      "details": "This is a detailed description of Box 1. It contains interesting secrets and exciting features that you can explore once you open the box.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 2",
+      "image": "./img/lilazoo9.png",
+      "info": "Secret Info 2",
+      "details": "Box 2 holds more mysteries and surprises. This box might just be the key to unlock your next adventure. Open it to discover more!",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 3",
+      "image": "./img/baby3.png",
+      "info": "Secret Info 3",
+      "details": "Box 3 is a treasure chest of fun and discovery. It contains rare and exciting items that you can only find here.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 4",
+      "image": "./img/baby3christmas.png",
+      "info": "Secret Info 4",
+      "details": "Box 4 is themed around the magic of Christmas. Inside, you'll find festive surprises that bring joy to everyone who opens it.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 5",
+      "image": "./img/baby3v3.png",
+      "info": "Secret Info 5",
+      "details": "Box 5 contains futuristic items and gadgets. It’s perfect for those who love technology and innovation.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 6",
+      "image": "./img/baobao.png",
+      "info": "Secret Info 6",
+      "details": "Box 6 is a soft and cuddly surprise for those who love comfort. It’s full of cozy, feel-good items.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 7",
+      "image": "./img/labubu.png",
+      "info": "Secret Info 7",
+      "details": "Box 7 is for animal lovers! It contains adorable surprises that are sure to make you smile.",
+      "popupImage": "./img/lilazoo.png"
+    },
+    {
+      "name": "Box 8",
+      "image": "./img/lazy.png",
+      "info": "Secret Info 8",
+      "details": "Box 8 is all about relaxation. If you enjoy taking it easy, this box has everything you need to unwind.",
+      "popupImage": "./img/lilazoo.png"
+    }
+  ]
+  

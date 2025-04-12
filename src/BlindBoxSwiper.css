@@ -1,0 +1,279 @@
+/* BlindBoxSwiper.css */
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .box-face {
+    font-size: 40px;
+  }
+  
+  .cv-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .cv-info h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .cv-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .back-btn {
+    margin-top: 20px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .congrats {
+    font-size: 24px;
+    color: green;
+    margin-top: 30px;
+  }
+  
+/* BlindBoxSwiper.css */
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    /* margin-top: 20px; */
+  }
+  .box-card {
+    background-image: url('./img/lilazoo.png');
+    background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ box */
+    background-position: center; /* Căn giữa ảnh */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Mờ đen để nội dung dễ đọc */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info-box {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 50px; */
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    width: 300px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .swipe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: transform 0.5s ease;
+  }
+  
+  .card .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .card .info-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .swipe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+  }
+  
+  .info-box {
+    text-align: center;
+  }
+  
+  .popup {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 70%;
+    height: 60%;
+    max-width: 900px;
+  }
+  
+  .popup-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Đảm bảo không có phần thừa của ảnh bị tràn ra ngoài */
+    width: 65%;
+    height: 100%;
+    float: left;
+  }
+  
+  .popup-left img {
+    width: 100%;         /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của popup */
+    height: auto;        /* Đảm bảo ảnh chiếm toàn bộ chiều cao của popup */
+    object-fit: cover;   /* Đảm bảo ảnh lấp đầy toàn bộ popup mà không bị bóp méo */
+    border-radius: 10px; /* Viền tròn cho ảnh */
+    max-width: 100%;     /* Giới hạn ảnh không vượt quá chiều rộng của popup */
+    max-height: 100%;
+  }
+  
+
+  .popup-right {
+    flex: 1;
+    width: 30%;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .popup-right h2 {
+    margin-bottom: 10px;
+  }
+  
+  .popup-right p {
+    font-size: 16px;
+  }
+  
+  .close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    background-color: #d32f2f;
+  }
+  
